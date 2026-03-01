@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stanislav Alpha 1.0</title>
+<style>
+  /* fullscreen background */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body {
+    background: url('ed.tehn.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* container for buttons */
+  .button-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* stylish buttons */
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #fff;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  .btn:active::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,0.3);
+  }
+</style>
+</head>
+<body>
+  <div class="button-row">
+    <a class="btn" href="https://www.instagram.com/stasik_billy/">IG</a>
+    <a class="btn" href="https://snapchat.com/t/pL0mmqEp">Snap</a>
+    <a class="btn" href="https://www.youtube.com/@stasikgologan471">My Youtube</a>
+    <a class="btn" href="https://www.roblox.com/users/1038339852/profile">Roblox</a>
+    <a class="btn" href="https://youtu.be/oPLObjVAvIU?si=5qI-zYuhu9pEh83M">DO NOT CLICK ME (BETA)</a>
+  </div>
+</body>
+</html>
